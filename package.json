@@ -1,0 +1,28 @@
+{
+  "name": "crud-app-node",
+  "version": "1.0.0",
+  "description": "This application about crud opeartion using rest api in movies details",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "rest-api",
+    "movies-details",
+    "mongodb",
+    "node.js",
+    "express.js",
+    "nodemon"
+  ],
+  "author": "Moorthy M",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4"
+  }
+}
